@@ -72,9 +72,9 @@ Typically, if no default SharePoint server is specified, either there is no Shar
 ### Troubleshooting SharePoint communication
 SharePoint communication works for the current user only if the following conditions are met:
 
-- An Office 365 license is associated with the user's account.
-- The user is a typical user on the tenant, not an external user (for example, a user from another tenant).
-- There is a SharePoint site for the tenant (for example, Contoso.SharePoint.com).
+1. There is a SharePoint site for the tenant (for example, SharePoint host is "contoso.sharepoint.com").
+2. The user is a typical user on the tenant, not an external user (for example, user account is "someUser@contoso.onmicrosoft.com").
+3. An Office 365 license is associated with the user's account.
 
 ## Configure file types
 
